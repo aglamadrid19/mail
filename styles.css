@@ -1,0 +1,107 @@
+body {
+	font-family: Roboto, sans-serif;
+	font-size: 15px;
+	margin: 0 25px 0 25px;
+	border: 15px solid #F4F8FB;
+	padding: 0 20px 0 20px;
+	width: 515px;
+}
+
+h1 {
+	color: #21cbca;
+	text-align: center;
+}
+
+h1.thanks {
+	font-family: Indie Flower;
+	color: black;
+	font-size: 40px;
+}
+
+span {
+	color: #21cbca;
+}
+
+table {
+	width: 100%;
+}
+
+table.contacts {
+	border-collapse: collapse;
+	margin: 35px 0 40px 0;
+}
+
+table.contacts th {
+	border-bottom: 1px solid lightgrey;
+	padding: 35px 0 10px 0;
+	text-align: left;
+}
+
+table.contacts td {
+	padding-top: 10px;
+}
+
+
+table.order {
+	padding: 35px 0 35px 0;
+	text-align: left;
+}
+
+table.order {
+	border-collapse: collapse;
+}
+
+tr.table_property {
+	border-collapse: collapse;
+	border-bottom: 1px solid lightgrey;
+	border-top: 1px solid lightgrey;
+}
+
+img.order {
+	width: 100px;
+	height: 100px;
+}
+
+.order_total {
+	text-align: right;
+}
+
+td.order_total {
+	padding: 15px 0 15px 0;
+}
+
+th.order_total {
+	border-top: 2px solid black;
+	padding: 10px 0 20px 0;
+}
+
+table.trending th {
+	text-align: left;
+	font-size: 30px;
+	font-weight: 100;
+	padding-bottom: 20px;
+	color: grey;
+}
+
+table.trending td.cost {
+	text-align: right;
+	padding-right: 5px;
+
+
+}
+img.trend {
+	width: 250px;
+	height: 250px;
+}
+
+div.button {
+	display: flex;
+	width: 515px;
+	height: 40px;
+	background-color: #21cbca;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	margin: 35px 0 35px 0;
+	text-transform: capitalize;
+}
